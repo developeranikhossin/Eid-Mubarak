@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.fix{
+    overflow: hidden;
+}
+body{
+    background: rgb(227, 234, 246);
+}
+
+.hello-project{
+    padding-top: 150px;
+}
+.hello-project button{
+    padding: 10px 30px;
+    color: rgb(222, 222, 229);
+    background-color: blue;
+    border: none;
+    font-weight: 700;
+    transition: .3s;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.hello-project button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#eid-project{
+    display: none;
+}
+.eid-project h1 {
+	padding-left: 30px;
+	padding-top: 100px;
+}
+.eid-project p {
+	padding-left: 8px;
+	line-height: 30px;
+	font-weight: 600;
+    padding-top: 15px;
+}
+.eid-project{
+    text-align: left;
+}
+
+
+
